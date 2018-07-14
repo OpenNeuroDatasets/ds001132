@@ -1,9 +1,9 @@
 This dataset is described in the paper:
 "Shared experience, shared memory: a common structure for brain activity during naturalistic recall"
-Janice Chen, Yuan Chang Leong, Kenneth A Norman, Uri Hasson
-preprint available at http://biorxiv.org/content/early/2016/01/05/035931
+Janice Chen, Yuan Chang Leong, Kenneth A Norman, Uri Hasson. Paper available at https://www.nature.com/articles/nn.4450
 
 Sixteen subjects watched the first 50 minutes of Episode 1 of BBC's Sherlock. (There are 17 described in the paper; 1 was removed for this dataset due to a small amount of missing data at the end of the movie scan.)
+
 The movie was split into two parts of approximately equal length. Immediately afterward (a few minutes to set up the next scan, but no intervening task), subjects described aloud what they recalled from the movie. The movie was segmented into 50 scenes, and each subject's recall/description was segmented into the same scenes (for the scenes that they remembered). 
 After preprocessing, subject-specific cropping of each file is required in order for the scene timestamps to apply.
 
@@ -13,40 +13,40 @@ Subj		Crop from beginning		Crop from end
      1    		20     							7
      2    		20     							7
      3    		20     							6
-     4     	6    								13
+     4     	        6    							      13
      5    		20     							8
      6    		20     							7
      7    		20     							6
      8    		20     							5
      9    		20     							4
-    10    	20     							6
-    11    	20     							3
-    12    	20     							5
-    13    	20     							5
-    14    	20     							6
-    15    	20     							3
-    16    	20     							5
+    10    	       20     							6
+    11     	       20     							3
+    12    	       20     							5
+    13    	       20     							5
+    14    	       20     							6
+    15    	       20     							3
+    16    	       20     							5
 This cropping results in data files that are 946 TRs for each subject.
 
 Movie data: Scan 2
 For each subject, crop the data in the following way (TRs, not seconds):
 Subj		Crop from beginning		Crop from end	
-	 1    		20    							11
+     1    		20    							11
      2    		20     							7
      3    		20     							7
-     4     	6     								5
+     4         	6     								5
      5    		20     							7
      6    		20     							7
      7    		20    							10
      8    		20     							7
      9    		20     							8
-    10    	20     							8
-    11    	20     							6
-    12    	20     							7
-    13    	20     							6
-    14    	20     							4
-    15    	20     							4
-    16    	20     							6
+    10    	       20     							8
+    11    	       20     							6
+    12    	       20     							7
+    13    	       20     							6
+    14    	       20     							4
+    15    	       20     							4
+    16    	       20     							6
 This cropping results in data files that are 1030 TRs for each subject.
 
 Recall data: One scan
